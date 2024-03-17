@@ -141,6 +141,7 @@ body {
 }
 .header .inner h1 {
     height: 30px;
+    line-height: 30px;
 }
 .header .inner h1 a {
     display: inline-block;

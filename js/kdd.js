@@ -14,9 +14,9 @@ $(function(){
           prevEl: ".swiper-button-prev",
         },
         loop: true,
-        speed: 1000,
+        // speed: 1000,
         autoplay: {
-            delay: 9000,
+            delay: 10000,
             disableOnInteraction: false,
         },
         on: {

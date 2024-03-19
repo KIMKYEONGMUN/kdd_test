@@ -233,7 +233,7 @@ body {
 .main_visual .mainSwiper .swiper-wrapper .swiper-slide-active figure img {
     transform: scale(1.1);
     transition: 10s linear;
-    animation: 10s fade linear;
+    animation: fade 10s;
 }
 @keyframes fade {
     0% {
@@ -281,19 +281,19 @@ body {
     transform: translateX(0);
     opacity: 1;
     transition: 1s linear;
-    /* animation: 10s slide linear; */
+    /* animation: slide 10s linear; */
 }
 .main_visual .mainSwiper .swiper-wrapper .swiper-slide-active .text strong {
     transform: translateX(0);
     opacity: 1;
     transition: 1s linear 0.5s;
-    /* animation: 10s slide linear 0.5s; */
+    /* animation: slide 10s linear 0.5s; */
 }
 .main_visual .mainSwiper .swiper-wrapper .swiper-slide-active .text p {
     transform: translateX(0);
     opacity: 1;
     transition: 1s linear 1s;
-    /* animation: 10s slide linear 1s; */
+    /* animation: slide 10s linear 1s; */
 }
 /* @keyframes slide {
     0% {
@@ -339,7 +339,7 @@ body {
 .main_visual .mainSwiper .bar_progress.on {
     width: 100%;
     transition: 10s linear;
-    /* animation: 10s progress linear; */
+    /* animation: progress 10s linear; */
 }
 /* @keyframes progress {
     0% {

@@ -339,7 +339,7 @@ body {
 .main_visual .mainSwiper .bar_progress.on {
     width: 100%;
     transition: 10s linear;
-    /* animation: 9s progress linear; */
+    /* animation: 10s progress linear; */
 }
 /* @keyframes progress {
     0% {
